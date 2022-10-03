@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1525519118 source:c:\users\4binf\desktop\biblioteca\code\bibliomatpom\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	"classi.h"
+
+1521997567 
+
+1522958516 source:c:\users\matteo\dropbox\4bi\biblioteca\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<time.h>
+	<cstdlib>
+	"classi.h"
+
+1522947992 c:\users\matteo\dropbox\4bi\biblioteca\code\bibliomatpom\classi.h
+
+1522957911 source:c:\users\matteo\dropbox\4bi\biblioteca\code\bibliomatpom\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	"classi.h"
+
+1525625706 source:c:\users\teopo\dropbox\4bi\biblioteca\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<time.h>
+	<cstdlib>
+	"classi.h"
+
+1525540787 c:\users\teopo\dropbox\4bi\biblioteca\code\bibliomatpom\classi.h
+
+1525624861 source:c:\users\teopo\dropbox\4bi\biblioteca\code\bibliomatpom\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	<Windows.h>
+	<MMSystem.h>
+	"classi.h"
+
+1519810370 c:\users\teopo\dropbox\4bi\biblioteca\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	"classi.h"
+
+1525519045 source:c:\users\4binf\desktop\biblioteca\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<time.h>
+	<cstdlib>
+	"classi.h"
+
+1525519045 c:\users\4binf\desktop\biblioteca\code\bibliomatpom\classi.h
+
+1521997567 source:c:\users\teopo\desktop\biblioteca\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<time.h>
+	<cstdlib>
+	"classi.h"
+
+1521893666 c:\users\teopo\desktop\biblioteca\code\bibliomatpom\classi.h
+
+1521891519 source:c:\users\teopo\desktop\biblioteca\code\bibliomatpom\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	"classi.h"
+	<fstream.h>
+
+1521891519 >
+
+1525453768 source:/home/stud4bi/Scrivania/Biblioteca/Code/BiblioMatPom/main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	"classi.h"
+
+1525453768 /home/stud4bi/Scrivania/Biblioteca/Code/BiblioMatPom/classi.h
+
+1525619288 source:c:\users\teopo\dropbox\4bi\bibliotecamatteopompilio4bi\code\bibliomatpom\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	<Windows.h>
+	<MMSystem.h>
+	"classi.h"
+
+1526665516 c:\users\teopo\dropbox\4bi\bibliotecamatteopompilio4bi\code\bibliomatpom\classi.h
+
+1526665516 source:c:\users\teopo\dropbox\4bi\bibliotecamatteopompilio4bi\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<time.h>
+	<cstdlib>
+	"classi.h"
+
+1525620146 source:c:\users\4binf\desktop\bibliotecamatteopompilio4bi\code\bibliomatpom\funzioni.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<time.h>
+	<cstdlib>
+	"classi.h"
+
+1525711900 c:\users\4binf\desktop\bibliotecamatteopompilio4bi\code\bibliomatpom\classi.h
+
+1525619288 source:c:\users\4binf\desktop\bibliotecamatteopompilio4bi\code\bibliomatpom\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<ctime>
+	<Windows.h>
+	<MMSystem.h>
+	"classi.h"
+
