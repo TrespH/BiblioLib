@@ -1,0 +1,172 @@
+\hypertarget{class_direttore}{}\section{Riferimenti per la classe Direttore}
+\label{class_direttore}\index{Direttore@{Direttore}}
+Diagramma delle classi per Direttore\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_direttore}
+\end{center}
+\end{figure}
+\subsection*{Membri pubblici}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_direttore_aa4f96257cc680cb6bab2f288f9c36c45}\label{class_direttore_aa4f96257cc680cb6bab2f288f9c36c45}} 
+\mbox{\hyperlink{class_direttore_aa4f96257cc680cb6bab2f288f9c36c45}{Direttore}} (char $\ast$, char $\ast$, char $\ast$)
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_direttore}{Direttore}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direttore_a2454c9f9e9c608c4d11ee706e9a0b84e}\label{class_direttore_a2454c9f9e9c608c4d11ee706e9a0b84e}} 
+\mbox{\hyperlink{class_direttore_a2454c9f9e9c608c4d11ee706e9a0b84e}{Direttore}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_direttore}{Direttore}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a129587a726e0980dc6873c1bfdc815b7}{View\+Lista\+Addetti}} ()
+\begin{DoxyCompactList}\small\item\em Visualizzatore della Lista Addetti. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_direttore_af105ccdec38de04af05540a4abb318b6}{Ricerca\+Addetto}} (int $\ast$vett=new int\mbox{[}1000\mbox{]})
+\begin{DoxyCompactList}\small\item\em Ricercatore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_ae68ff6aa5d4ef52bb2d13fe6196be098}{Registrazione\+Addetto}} ()
+\begin{DoxyCompactList}\small\item\em Registratore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a9516369e5ecf44407d616503274b24e0}{Modifica\+Prestito}} ()
+\begin{DoxyCompactList}\small\item\em Modificatore del \mbox{\hyperlink{class_prestito}{Prestito}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a60fad939a27c6757cbd1178342dd1ee4}{Modifica\+Addetto}} ()
+\begin{DoxyCompactList}\small\item\em Modificatore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a123715efe14406e729ad049538bd6ef7}{Eliminazione\+Libro}} ()
+\begin{DoxyCompactList}\small\item\em Eliminatore del \mbox{\hyperlink{class_libro}{Libro}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a244e9b158142cee49c48c00c44a44f2c}{Eliminazione\+Prestito}} ()
+\begin{DoxyCompactList}\small\item\em Eliminatore del \mbox{\hyperlink{class_prestito}{Prestito}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a9af311211927da3e2e34ddefe0506e99}{Eliminazione\+In\+Lista\+Prestiti}} (char $\ast$username=\char`\"{}\char`\"{}, char $\ast$codice\+Libro=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em Eliminatore del \mbox{\hyperlink{class_prestito}{Prestito}} in Lista Prestiti Richiesti. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a404a98bb33a0437aa605f2a3c35a2db4}{Eliminazione\+In\+Lista\+Prestiti\+In\+Corso}} (char $\ast$username=\char`\"{}\char`\"{}, char $\ast$codice\+Libro=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em Eliminatore del \mbox{\hyperlink{class_prestito}{Prestito}} in Lista Prestiti In Corso. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_acc0f5fcd26f5adbd5ea5c3f54f01b34a}{Eliminazione\+Utente}} ()
+\begin{DoxyCompactList}\small\item\em Eliminatore dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_direttore_a32293a43bb28f02eb543090d828f7738}{Eliminazione\+Addetto}} ()
+\begin{DoxyCompactList}\small\item\em Eliminatore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentazione delle funzioni membro}
+\mbox{\Hypertarget{class_direttore_a32293a43bb28f02eb543090d828f7738}\label{class_direttore_a32293a43bb28f02eb543090d828f7738}} 
+\index{Direttore@{Direttore}!Eliminazione\+Addetto@{Eliminazione\+Addetto}}
+\index{Eliminazione\+Addetto@{Eliminazione\+Addetto}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Eliminazione\+Addetto()}{EliminazioneAddetto()}}
+{\footnotesize\ttfamily void Direttore\+::\+Eliminazione\+Addetto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Eliminatore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. 
+
+Richiamando la funzione \mbox{\hyperlink{class_direttore_af105ccdec38de04af05540a4abb318b6}{Ricerca\+Addetto()}} ne chiede la selezione dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}} e, una volta selezionato,~\newline
+provvede all\textquotesingle{}eliminazione, eseguita creando un file temporaneo che verra\textquotesingle{} poi rinominato. \mbox{\Hypertarget{class_direttore_a9af311211927da3e2e34ddefe0506e99}\label{class_direttore_a9af311211927da3e2e34ddefe0506e99}} 
+\index{Direttore@{Direttore}!Eliminazione\+In\+Lista\+Prestiti@{Eliminazione\+In\+Lista\+Prestiti}}
+\index{Eliminazione\+In\+Lista\+Prestiti@{Eliminazione\+In\+Lista\+Prestiti}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Eliminazione\+In\+Lista\+Prestiti()}{EliminazioneInListaPrestiti()}}
+{\footnotesize\ttfamily void Direttore\+::\+Eliminazione\+In\+Lista\+Prestiti (\begin{DoxyParamCaption}\item[{char $\ast$}]{username = {\ttfamily \char`\"{}\char`\"{}},  }\item[{char $\ast$}]{codice\+Libro = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Eliminatore del \mbox{\hyperlink{class_prestito}{Prestito}} in Lista Prestiti Richiesti. 
+
+Metodo richiamato unicamente dalla funzione \mbox{\hyperlink{class_direttore_a244e9b158142cee49c48c00c44a44f2c}{Eliminazione\+Prestito()}}. \mbox{\Hypertarget{class_direttore_a404a98bb33a0437aa605f2a3c35a2db4}\label{class_direttore_a404a98bb33a0437aa605f2a3c35a2db4}} 
+\index{Direttore@{Direttore}!Eliminazione\+In\+Lista\+Prestiti\+In\+Corso@{Eliminazione\+In\+Lista\+Prestiti\+In\+Corso}}
+\index{Eliminazione\+In\+Lista\+Prestiti\+In\+Corso@{Eliminazione\+In\+Lista\+Prestiti\+In\+Corso}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Eliminazione\+In\+Lista\+Prestiti\+In\+Corso()}{EliminazioneInListaPrestitiInCorso()}}
+{\footnotesize\ttfamily void Direttore\+::\+Eliminazione\+In\+Lista\+Prestiti\+In\+Corso (\begin{DoxyParamCaption}\item[{char $\ast$}]{username = {\ttfamily \char`\"{}\char`\"{}},  }\item[{char $\ast$}]{codice\+Libro = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Eliminatore del \mbox{\hyperlink{class_prestito}{Prestito}} in Lista Prestiti In Corso. 
+
+Metodo richiamato unicamente dalla funzione \mbox{\hyperlink{class_direttore_a244e9b158142cee49c48c00c44a44f2c}{Eliminazione\+Prestito()}}. \mbox{\Hypertarget{class_direttore_a123715efe14406e729ad049538bd6ef7}\label{class_direttore_a123715efe14406e729ad049538bd6ef7}} 
+\index{Direttore@{Direttore}!Eliminazione\+Libro@{Eliminazione\+Libro}}
+\index{Eliminazione\+Libro@{Eliminazione\+Libro}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Eliminazione\+Libro()}{EliminazioneLibro()}}
+{\footnotesize\ttfamily void Direttore\+::\+Eliminazione\+Libro (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Eliminatore del \mbox{\hyperlink{class_libro}{Libro}}. 
+
+Richiamando la funzione Ricerca\+Libro() ne chiede la selezione del \mbox{\hyperlink{class_libro}{Libro}} e, una volta selezionato,~\newline
+provvede all\textquotesingle{}eliminazione, eseguita creando un file temporaneo che verra\textquotesingle{} poi rinominato. \mbox{\Hypertarget{class_direttore_a244e9b158142cee49c48c00c44a44f2c}\label{class_direttore_a244e9b158142cee49c48c00c44a44f2c}} 
+\index{Direttore@{Direttore}!Eliminazione\+Prestito@{Eliminazione\+Prestito}}
+\index{Eliminazione\+Prestito@{Eliminazione\+Prestito}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Eliminazione\+Prestito()}{EliminazionePrestito()}}
+{\footnotesize\ttfamily void Direttore\+::\+Eliminazione\+Prestito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Eliminatore del \mbox{\hyperlink{class_prestito}{Prestito}}. 
+
+Richiamando la funzione \mbox{\hyperlink{class_persona_ab06e2688ff0eb5c51177a44d33232070}{Ricerca\+Prestito()}} ne chiede la selezione del \mbox{\hyperlink{class_prestito}{Prestito}} e, una volta selezionato,~\newline
+provvede all\textquotesingle{}eliminazione, eseguita creando un file temporaneo che verra\textquotesingle{} poi rinominato. \mbox{\Hypertarget{class_direttore_acc0f5fcd26f5adbd5ea5c3f54f01b34a}\label{class_direttore_acc0f5fcd26f5adbd5ea5c3f54f01b34a}} 
+\index{Direttore@{Direttore}!Eliminazione\+Utente@{Eliminazione\+Utente}}
+\index{Eliminazione\+Utente@{Eliminazione\+Utente}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Eliminazione\+Utente()}{EliminazioneUtente()}}
+{\footnotesize\ttfamily void Direttore\+::\+Eliminazione\+Utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Eliminatore dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. 
+
+Richiamando la funzione \mbox{\hyperlink{class_persona_a11bc0159627eb83be83b00c56ff1a3f9}{Ricerca\+Utente()}} ne chiede la selezione dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}} e, una volta selezionato,~\newline
+provvede all\textquotesingle{}eliminazione, eseguita creando un file temporaneo che verra\textquotesingle{} poi rinominato. \mbox{\Hypertarget{class_direttore_a60fad939a27c6757cbd1178342dd1ee4}\label{class_direttore_a60fad939a27c6757cbd1178342dd1ee4}} 
+\index{Direttore@{Direttore}!Modifica\+Addetto@{Modifica\+Addetto}}
+\index{Modifica\+Addetto@{Modifica\+Addetto}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Modifica\+Addetto()}{ModificaAddetto()}}
+{\footnotesize\ttfamily void Direttore\+::\+Modifica\+Addetto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificatore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. 
+
+Richiamando la funzione \mbox{\hyperlink{class_direttore_af105ccdec38de04af05540a4abb318b6}{Ricerca\+Addetto()}} ne chiede la selezione dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}} e, una volta selezionato,~\newline
+elenca i parametri che si vogliono modificare, a scelta tra Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}.~\newline
+La modifica avviene sia nella Lista Addetti, sia nella Lista Prestiti Scaduti, In Corso e Richiesti. \mbox{\Hypertarget{class_direttore_a9516369e5ecf44407d616503274b24e0}\label{class_direttore_a9516369e5ecf44407d616503274b24e0}} 
+\index{Direttore@{Direttore}!Modifica\+Prestito@{Modifica\+Prestito}}
+\index{Modifica\+Prestito@{Modifica\+Prestito}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Modifica\+Prestito()}{ModificaPrestito()}}
+{\footnotesize\ttfamily void Direttore\+::\+Modifica\+Prestito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificatore del \mbox{\hyperlink{class_prestito}{Prestito}}. 
+
+Richiamando la funzione \mbox{\hyperlink{class_persona_ab06e2688ff0eb5c51177a44d33232070}{Ricerca\+Prestito()}} ne chiede la selezione del \mbox{\hyperlink{class_prestito}{Prestito}} e, una volta selezionato,~\newline
+chiede al solo \mbox{\hyperlink{class_direttore}{Direttore}} il numero di giorni da concedere al \mbox{\hyperlink{class_prestito}{Prestito}}, da un minimo di 30 fino a -\/30.~\newline
+La modifica avviene in Lista Prestiti In Corso, solamente se il \mbox{\hyperlink{class_prestito}{Prestito}} non è ancora scaduto. \mbox{\Hypertarget{class_direttore_ae68ff6aa5d4ef52bb2d13fe6196be098}\label{class_direttore_ae68ff6aa5d4ef52bb2d13fe6196be098}} 
+\index{Direttore@{Direttore}!Registrazione\+Addetto@{Registrazione\+Addetto}}
+\index{Registrazione\+Addetto@{Registrazione\+Addetto}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Registrazione\+Addetto()}{RegistrazioneAddetto()}}
+{\footnotesize\ttfamily void Direttore\+::\+Registrazione\+Addetto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Registratore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. 
+
+Richiede Nome e Cognome da tastiera e fornisce il relativo \mbox{\hyperlink{class_pin}{Pin}} generato automaticamente. \mbox{\Hypertarget{class_direttore_af105ccdec38de04af05540a4abb318b6}\label{class_direttore_af105ccdec38de04af05540a4abb318b6}} 
+\index{Direttore@{Direttore}!Ricerca\+Addetto@{Ricerca\+Addetto}}
+\index{Ricerca\+Addetto@{Ricerca\+Addetto}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{Ricerca\+Addetto()}{RicercaAddetto()}}
+{\footnotesize\ttfamily bool Direttore\+::\+Ricerca\+Addetto (\begin{DoxyParamCaption}\item[{int $\ast$}]{vett = {\ttfamily new~int\mbox{[}1000\mbox{]}} }\end{DoxyParamCaption})}
+
+
+
+Ricercatore dell\textquotesingle{}\mbox{\hyperlink{class_addetto}{Addetto}}. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em Conferma} & booleana presenza record in file.\\
+\hline
+\end{DoxyParams}
+Richiede un testo in input, che varra\textquotesingle{} come parola chiave da ricercare in Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}.~\newline
+Restituisce, come indirizzo, un int$\ast$\mbox{[}1000\mbox{]} contenente gli indici dei singoli Addetti trovati. \mbox{\Hypertarget{class_direttore_a129587a726e0980dc6873c1bfdc815b7}\label{class_direttore_a129587a726e0980dc6873c1bfdc815b7}} 
+\index{Direttore@{Direttore}!View\+Lista\+Addetti@{View\+Lista\+Addetti}}
+\index{View\+Lista\+Addetti@{View\+Lista\+Addetti}!Direttore@{Direttore}}
+\subsubsection{\texorpdfstring{View\+Lista\+Addetti()}{ViewListaAddetti()}}
+{\footnotesize\ttfamily void Direttore\+::\+View\+Lista\+Addetti (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Visualizzatore della Lista Addetti. 
+
+Mostra la lista degli Addetti indicandone\+: Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}, \mbox{\hyperlink{class_data}{Data}} \mbox{\hyperlink{class_registrazione}{Registrazione}}. 
+
+La documentazione per questa classe Ã¨ stata generata a partire dai seguenti file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classi_8h}{classi.\+h}}\item 
+\mbox{\hyperlink{funzioni_8cpp}{funzioni.\+cpp}}\end{DoxyCompactItemize}

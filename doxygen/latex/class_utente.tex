@@ -1,0 +1,68 @@
+\hypertarget{class_utente}{}\section{Riferimenti per la classe Utente}
+\label{class_utente}\index{Utente@{Utente}}
+Diagramma delle classi per Utente\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_utente}
+\end{center}
+\end{figure}
+\subsection*{Membri pubblici}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_utente_ab1a579bcfe63412f3865c95c0b5802ee}\label{class_utente_ab1a579bcfe63412f3865c95c0b5802ee}} 
+\mbox{\hyperlink{class_utente_ab1a579bcfe63412f3865c95c0b5802ee}{Utente}} (char $\ast$, char $\ast$, char $\ast$, char $\ast$)
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_utente_a387f9b8358c4a8e99b9ce54332632ba5}\label{class_utente_a387f9b8358c4a8e99b9ce54332632ba5}} 
+\mbox{\hyperlink{class_utente_a387f9b8358c4a8e99b9ce54332632ba5}{Utente}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_utente_a6041323415b0cb311ab2564afdd6a13b}{Richiesta\+Prestito}} (\mbox{\hyperlink{class_utente}{Utente}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Richiesta \mbox{\hyperlink{class_prestito}{Prestito}} da parte dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_utente_a42d4d04d073063464cf24d74723c0ba8}{Set\+User\+Credenziali}} (char $\ast$, char $\ast$, char $\ast$, char $\ast$)
+\begin{DoxyCompactList}\small\item\em Setter delle credenziali dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_utente_a9964d28e9b592fd7c430a55f09856727}{Get\+Username}} ()
+\begin{DoxyCompactList}\small\item\em Getter per l\textquotesingle{}Username. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentazione delle funzioni membro}
+\mbox{\Hypertarget{class_utente_a9964d28e9b592fd7c430a55f09856727}\label{class_utente_a9964d28e9b592fd7c430a55f09856727}} 
+\index{Utente@{Utente}!Get\+Username@{Get\+Username}}
+\index{Get\+Username@{Get\+Username}!Utente@{Utente}}
+\subsubsection{\texorpdfstring{Get\+Username()}{GetUsername()}}
+{\footnotesize\ttfamily char $\ast$ Utente\+::\+Get\+Username (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter per l\textquotesingle{}Username. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em char$\ast$} & username \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_utente_a6041323415b0cb311ab2564afdd6a13b}\label{class_utente_a6041323415b0cb311ab2564afdd6a13b}} 
+\index{Utente@{Utente}!Richiesta\+Prestito@{Richiesta\+Prestito}}
+\index{Richiesta\+Prestito@{Richiesta\+Prestito}!Utente@{Utente}}
+\subsubsection{\texorpdfstring{Richiesta\+Prestito()}{RichiestaPrestito()}}
+{\footnotesize\ttfamily void Utente\+::\+Richiesta\+Prestito (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_utente}{Utente}} $\ast$}]{u\+Pointer }\end{DoxyParamCaption})}
+
+
+
+Richiesta \mbox{\hyperlink{class_prestito}{Prestito}} da parte dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. 
+
+Richiamando la funzione Ricerca\+Libro() ne chiede la selezione del \mbox{\hyperlink{class_libro}{Libro}} e, una volta selezionato,~\newline
+provvede ad inserire in Lista Prestiti Richiesti il \mbox{\hyperlink{class_prestito}{Prestito}} appena generato. \mbox{\Hypertarget{class_utente_a42d4d04d073063464cf24d74723c0ba8}\label{class_utente_a42d4d04d073063464cf24d74723c0ba8}} 
+\index{Utente@{Utente}!Set\+User\+Credenziali@{Set\+User\+Credenziali}}
+\index{Set\+User\+Credenziali@{Set\+User\+Credenziali}!Utente@{Utente}}
+\subsubsection{\texorpdfstring{Set\+User\+Credenziali()}{SetUserCredenziali()}}
+{\footnotesize\ttfamily void Utente\+::\+Set\+User\+Credenziali (\begin{DoxyParamCaption}\item[{char $\ast$}]{pin,  }\item[{char $\ast$}]{nome,  }\item[{char $\ast$}]{cognome,  }\item[{char $\ast$}]{username }\end{DoxyParamCaption})}
+
+
+
+Setter delle credenziali dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. 
+
+Funge da metodo setter per i 4 parametri\+: Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}, Username. 
+
+La documentazione per questa classe è stata generata a partire dai seguenti file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classi_8h}{classi.\+h}}\item 
+\mbox{\hyperlink{funzioni_8cpp}{funzioni.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,65 @@
+\hypertarget{class_catalogo}{}\section{Riferimenti per la classe Catalogo}
+\label{class_catalogo}\index{Catalogo@{Catalogo}}
+\subsection*{Membri pubblici}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catalogo_af2d231942828cd6e47bdb17f4215d5d6}{Catalogo}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_catalogo}{Catalogo}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_catalogo_af1b86a93a832982c779e34b5ce9dd88b}\label{class_catalogo_af1b86a93a832982c779e34b5ce9dd88b}} 
+\mbox{\hyperlink{class_catalogo_af1b86a93a832982c779e34b5ce9dd88b}{$\sim$\+Catalogo}} ()
+\begin{DoxyCompactList}\small\item\em Distruttore \mbox{\hyperlink{class_catalogo}{Catalogo}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_catalogo_a1ba3cde9c46e9d8f5bf6654c7b96647f}{Visualizza\+Catalogo}} ()
+\begin{DoxyCompactList}\small\item\em Visualizzatore del \mbox{\hyperlink{class_catalogo}{Catalogo}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_catalogo_aeaae558ee214dc61944b0a145932fd44}\label{class_catalogo_aeaae558ee214dc61944b0a145932fd44}} 
+void \mbox{\hyperlink{class_catalogo_aeaae558ee214dc61944b0a145932fd44}{Update\+Catalogo}} (\mbox{\hyperlink{class_libro}{Libro}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Metodo per la modifica di Libri in \mbox{\hyperlink{class_catalogo}{Catalogo}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_catalogo_a378e5b182d45ccfba3ace696656cb1d0}{Ricerca\+Libro}} (int $\ast$vett=new int\mbox{[}1000\mbox{]})
+\begin{DoxyCompactList}\small\item\em Ricercatore del \mbox{\hyperlink{class_libro}{Libro}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentazione dei costruttori e dei distruttori}
+\mbox{\Hypertarget{class_catalogo_af2d231942828cd6e47bdb17f4215d5d6}\label{class_catalogo_af2d231942828cd6e47bdb17f4215d5d6}} 
+\index{Catalogo@{Catalogo}!Catalogo@{Catalogo}}
+\index{Catalogo@{Catalogo}!Catalogo@{Catalogo}}
+\subsubsection{\texorpdfstring{Catalogo()}{Catalogo()}}
+{\footnotesize\ttfamily Catalogo\+::\+Catalogo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Costruttore \mbox{\hyperlink{class_catalogo}{Catalogo}}. 
+
+Provvede ad inserire in Lista Prestiti Scaduti tutti quei Prestiti con \mbox{\hyperlink{class_data}{Data}} di Scadenza $<$= 0. 
+
+\subsection{Documentazione delle funzioni membro}
+\mbox{\Hypertarget{class_catalogo_a378e5b182d45ccfba3ace696656cb1d0}\label{class_catalogo_a378e5b182d45ccfba3ace696656cb1d0}} 
+\index{Catalogo@{Catalogo}!Ricerca\+Libro@{Ricerca\+Libro}}
+\index{Ricerca\+Libro@{Ricerca\+Libro}!Catalogo@{Catalogo}}
+\subsubsection{\texorpdfstring{Ricerca\+Libro()}{RicercaLibro()}}
+{\footnotesize\ttfamily bool Catalogo\+::\+Ricerca\+Libro (\begin{DoxyParamCaption}\item[{int $\ast$}]{vett = {\ttfamily new~int\mbox{[}1000\mbox{]}} }\end{DoxyParamCaption})}
+
+
+
+Ricercatore del \mbox{\hyperlink{class_libro}{Libro}}. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em Conferma} & booleana presenza record in file.\\
+\hline
+\end{DoxyParams}
+Richiede un testo in input, che varra\textquotesingle{} come parola chiave da ricercare in Titolo, Autore, Anno, Codice.~\newline
+Restituisce, come indirizzo, un int$\ast$\mbox{[}1000\mbox{]} contenente gli indici dei singoli Libri trovati. \mbox{\Hypertarget{class_catalogo_a1ba3cde9c46e9d8f5bf6654c7b96647f}\label{class_catalogo_a1ba3cde9c46e9d8f5bf6654c7b96647f}} 
+\index{Catalogo@{Catalogo}!Visualizza\+Catalogo@{Visualizza\+Catalogo}}
+\index{Visualizza\+Catalogo@{Visualizza\+Catalogo}!Catalogo@{Catalogo}}
+\subsubsection{\texorpdfstring{Visualizza\+Catalogo()}{VisualizzaCatalogo()}}
+{\footnotesize\ttfamily void Catalogo\+::\+Visualizza\+Catalogo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Visualizzatore del \mbox{\hyperlink{class_catalogo}{Catalogo}}. 
+
+Mostra la lista dei Libri indicandone\+: Titolo, Autore, Anno, Codice, Disponibilita\textquotesingle{}. 
+
+La documentazione per questa classe è stata generata a partire dai seguenti file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classi_8h}{classi.\+h}}\item 
+\mbox{\hyperlink{funzioni_8cpp}{funzioni.\+cpp}}\end{DoxyCompactItemize}

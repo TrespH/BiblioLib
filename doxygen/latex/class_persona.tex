@@ -1,0 +1,259 @@
+\hypertarget{class_persona}{}\section{Riferimenti per la classe Persona}
+\label{class_persona}\index{Persona@{Persona}}
+Diagramma delle classi per Persona\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_persona}
+\end{center}
+\end{figure}
+\subsection*{Membri pubblici}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_persona_ac147ebfcfa0c66116e8ace9b53f91901}{Persona}} (char $\ast$, char $\ast$, char $\ast$)
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_persona}{Persona}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_persona_aa7bba61c41b05166827eb1fbfc5ee0a9}\label{class_persona_aa7bba61c41b05166827eb1fbfc5ee0a9}} 
+\mbox{\hyperlink{class_persona_aa7bba61c41b05166827eb1fbfc5ee0a9}{$\sim$\+Persona}} ()
+\begin{DoxyCompactList}\small\item\em Distruttore \mbox{\hyperlink{class_persona}{Persona}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_a619e90d3b2036e78778b590ea1d51bcc}{Set\+Credenziali}} (char $\ast$, char $\ast$, char $\ast$)
+\begin{DoxyCompactList}\small\item\em Setter delle credenziali. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_aa3d04ab73400a071421c979e692f93b3}{View\+Lista\+Prestiti}} ()
+\begin{DoxyCompactList}\small\item\em Visualizzatore della Lista Prestiti. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_a8d7f6fa850c62e1eaac15c64013367a9}{View\+Lista\+Prestiti\+In\+Corso}} (char $\ast$username=\char`\"{}none\char`\"{})
+\begin{DoxyCompactList}\small\item\em Visualizzatore della Lista Prestiti In Corso. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_ade5bba69999d1ccedd4104f1c6c323b6}{View\+Lista\+Prestiti\+Scaduti}} ()
+\begin{DoxyCompactList}\small\item\em Visualizzatore della Lista Prestiti Scaduti. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_ad84db334efe5f35da14f085eec7383ce}{View\+Lista\+Utenti}} ()
+\begin{DoxyCompactList}\small\item\em Visualizzatore della Lista Utenti. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_persona_ab06e2688ff0eb5c51177a44d33232070}{Ricerca\+Prestito}} (int $\ast$vett=new int\mbox{[}1000\mbox{]})
+\begin{DoxyCompactList}\small\item\em Ricercatore del \mbox{\hyperlink{class_prestito}{Prestito}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_persona_a11bc0159627eb83be83b00c56ff1a3f9}{Ricerca\+Utente}} (int $\ast$vett=new int\mbox{[}1000\mbox{]})
+\begin{DoxyCompactList}\small\item\em Ricercatore del \mbox{\hyperlink{class_prestito}{Prestito}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_ad46f21f01f3c49c7de0bb5bb0fca0251}{Registrazione\+Utente}} ()
+\begin{DoxyCompactList}\small\item\em Registratore dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_a2da81a9fb38cf71e51a67efdb3510b13}{Modifica\+Libro}} ()
+\begin{DoxyCompactList}\small\item\em Modificatore del \mbox{\hyperlink{class_libro}{Libro}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_persona_aba5185684ebc81901b47abd587d01465}{Modifica\+Utente}} ()
+\begin{DoxyCompactList}\small\item\em Modificatore dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_persona_a49b4f6c55bf2cff47bb23478d6f160a1}\label{class_persona_a49b4f6c55bf2cff47bb23478d6f160a1}} 
+void \mbox{\hyperlink{class_persona_a49b4f6c55bf2cff47bb23478d6f160a1}{Update\+Lista\+Prestiti}} (\mbox{\hyperlink{class_utente}{Utente}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Metodo per la modifica di Utenti in Lista Prestiti Richiesti. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_persona_a163b75133201e6763d8dda84f9afa951}\label{class_persona_a163b75133201e6763d8dda84f9afa951}} 
+void {\bfseries Update\+Lista\+Prestiti} (\mbox{\hyperlink{class_libro}{Libro}} $\ast$)
+\item 
+\mbox{\Hypertarget{class_persona_a5320069309eb9aff6c5da358b0c930c5}\label{class_persona_a5320069309eb9aff6c5da358b0c930c5}} 
+void \mbox{\hyperlink{class_persona_a5320069309eb9aff6c5da358b0c930c5}{Update\+Lista\+Prestiti\+In\+Corso}} (\mbox{\hyperlink{class_utente}{Utente}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Metodo per la modifica di Utenti in Lista Prestiti In Corso. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_persona_af08b858055be38620e154973efb215a0}\label{class_persona_af08b858055be38620e154973efb215a0}} 
+void {\bfseries Update\+Lista\+Prestiti\+In\+Corso} (\mbox{\hyperlink{class_libro}{Libro}} $\ast$)
+\item 
+time\+\_\+t \mbox{\hyperlink{class_persona_a93d0e678c65154a03f07b0e5b48d6f78}{Get\+Data\+Registrazione}} ()
+\begin{DoxyCompactList}\small\item\em Getter per la \mbox{\hyperlink{class_data}{Data}} di \mbox{\hyperlink{class_registrazione}{Registrazione}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_persona_addab494a40e55af180c7b2e125bdc314}\label{class_persona_addab494a40e55af180c7b2e125bdc314}} 
+void \mbox{\hyperlink{class_persona_addab494a40e55af180c7b2e125bdc314}{Set\+Data\+Registrazione}} ()
+\begin{DoxyCompactList}\small\item\em Setter per la \mbox{\hyperlink{class_data}{Data}} di \mbox{\hyperlink{class_registrazione}{Registrazione}}. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_persona_a840ce621ec4598d7c2c52cbfdf39764b}{Get\+Pin}} ()
+\begin{DoxyCompactList}\small\item\em Getter per il \mbox{\hyperlink{class_pin}{Pin}}. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_persona_a05788dcb627fed81b04c90a6b82121aa}{Get\+Nome}} ()
+\begin{DoxyCompactList}\small\item\em Getter per il Nome. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{class_persona_aac79de5438c101f8fa14a6c5011329b0}{Get\+Cognome}} ()
+\begin{DoxyCompactList}\small\item\em Getter per il Cognome. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentazione dei costruttori e dei distruttori}
+\mbox{\Hypertarget{class_persona_ac147ebfcfa0c66116e8ace9b53f91901}\label{class_persona_ac147ebfcfa0c66116e8ace9b53f91901}} 
+\index{Persona@{Persona}!Persona@{Persona}}
+\index{Persona@{Persona}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Persona()}{Persona()}}
+{\footnotesize\ttfamily Persona\+::\+Persona (\begin{DoxyParamCaption}\item[{char $\ast$}]{pin,  }\item[{char $\ast$}]{nome,  }\item[{char $\ast$}]{cognome }\end{DoxyParamCaption})}
+
+
+
+Costruttore \mbox{\hyperlink{class_persona}{Persona}}. 
+
+Richiede 3 parametri in entrata\+: nome, cognome, pin. 
+
+\subsection{Documentazione delle funzioni membro}
+\mbox{\Hypertarget{class_persona_aac79de5438c101f8fa14a6c5011329b0}\label{class_persona_aac79de5438c101f8fa14a6c5011329b0}} 
+\index{Persona@{Persona}!Get\+Cognome@{Get\+Cognome}}
+\index{Get\+Cognome@{Get\+Cognome}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Get\+Cognome()}{GetCognome()}}
+{\footnotesize\ttfamily char $\ast$ Persona\+::\+Get\+Cognome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter per il Cognome. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em char$\ast$} & cognome \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_persona_a93d0e678c65154a03f07b0e5b48d6f78}\label{class_persona_a93d0e678c65154a03f07b0e5b48d6f78}} 
+\index{Persona@{Persona}!Get\+Data\+Registrazione@{Get\+Data\+Registrazione}}
+\index{Get\+Data\+Registrazione@{Get\+Data\+Registrazione}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Get\+Data\+Registrazione()}{GetDataRegistrazione()}}
+{\footnotesize\ttfamily time\+\_\+t Persona\+::\+Get\+Data\+Registrazione (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter per la \mbox{\hyperlink{class_data}{Data}} di \mbox{\hyperlink{class_registrazione}{Registrazione}}. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em time\+\_\+t} & data\+Registrazione \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_persona_a05788dcb627fed81b04c90a6b82121aa}\label{class_persona_a05788dcb627fed81b04c90a6b82121aa}} 
+\index{Persona@{Persona}!Get\+Nome@{Get\+Nome}}
+\index{Get\+Nome@{Get\+Nome}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Get\+Nome()}{GetNome()}}
+{\footnotesize\ttfamily char $\ast$ Persona\+::\+Get\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter per il Nome. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em char$\ast$} & nome \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_persona_a840ce621ec4598d7c2c52cbfdf39764b}\label{class_persona_a840ce621ec4598d7c2c52cbfdf39764b}} 
+\index{Persona@{Persona}!Get\+Pin@{Get\+Pin}}
+\index{Get\+Pin@{Get\+Pin}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Get\+Pin()}{GetPin()}}
+{\footnotesize\ttfamily char $\ast$ Persona\+::\+Get\+Pin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter per il \mbox{\hyperlink{class_pin}{Pin}}. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em char$\ast$} & pin \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_persona_a2da81a9fb38cf71e51a67efdb3510b13}\label{class_persona_a2da81a9fb38cf71e51a67efdb3510b13}} 
+\index{Persona@{Persona}!Modifica\+Libro@{Modifica\+Libro}}
+\index{Modifica\+Libro@{Modifica\+Libro}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Modifica\+Libro()}{ModificaLibro()}}
+{\footnotesize\ttfamily void Persona\+::\+Modifica\+Libro (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificatore del \mbox{\hyperlink{class_libro}{Libro}}. 
+
+Richiamando la funzione Ricerca\+Libro() ne chiede la selezione del \mbox{\hyperlink{class_libro}{Libro}} e, una volta selezionato,~\newline
+elenca i parametri che si vogliono modificare, a scelta tra Titolo, Autore, Anno, Codice.~\newline
+La modifica avviene sia nel \mbox{\hyperlink{class_catalogo}{Catalogo}}, sia nella Lista Prestiti Scaduti, In Corso e Richiesti. \mbox{\Hypertarget{class_persona_aba5185684ebc81901b47abd587d01465}\label{class_persona_aba5185684ebc81901b47abd587d01465}} 
+\index{Persona@{Persona}!Modifica\+Utente@{Modifica\+Utente}}
+\index{Modifica\+Utente@{Modifica\+Utente}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Modifica\+Utente()}{ModificaUtente()}}
+{\footnotesize\ttfamily void Persona\+::\+Modifica\+Utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificatore dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. 
+
+Richiamando la funzione \mbox{\hyperlink{class_persona_a11bc0159627eb83be83b00c56ff1a3f9}{Ricerca\+Utente()}} ne chiede la selezione dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}} e, una volta selezionato,~\newline
+elenca i parametri che si vogliono modificare, a scelta tra Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}.~\newline
+La modifica avviene sia nella Lista Utenti, sia nella Lista Prestiti Scaduti, In Corso e Richiesti. \mbox{\Hypertarget{class_persona_ad46f21f01f3c49c7de0bb5bb0fca0251}\label{class_persona_ad46f21f01f3c49c7de0bb5bb0fca0251}} 
+\index{Persona@{Persona}!Registrazione\+Utente@{Registrazione\+Utente}}
+\index{Registrazione\+Utente@{Registrazione\+Utente}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Registrazione\+Utente()}{RegistrazioneUtente()}}
+{\footnotesize\ttfamily void Persona\+::\+Registrazione\+Utente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Registratore dell\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}}. 
+
+Richiede Nome, Cognome e Username da tastiera e fornisce il relativo \mbox{\hyperlink{class_pin}{Pin}} generato automaticamente. \mbox{\Hypertarget{class_persona_ab06e2688ff0eb5c51177a44d33232070}\label{class_persona_ab06e2688ff0eb5c51177a44d33232070}} 
+\index{Persona@{Persona}!Ricerca\+Prestito@{Ricerca\+Prestito}}
+\index{Ricerca\+Prestito@{Ricerca\+Prestito}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Ricerca\+Prestito()}{RicercaPrestito()}}
+{\footnotesize\ttfamily bool Persona\+::\+Ricerca\+Prestito (\begin{DoxyParamCaption}\item[{int $\ast$}]{vett = {\ttfamily new~int\mbox{[}1000\mbox{]}} }\end{DoxyParamCaption})}
+
+
+
+Ricercatore del \mbox{\hyperlink{class_prestito}{Prestito}}. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em Conferma} & booleana presenza record in file.\\
+\hline
+\end{DoxyParams}
+Richiede un testo in input, che varra\textquotesingle{} come parola chiave da ricercare in~\newline
+Nome, Cognome \mbox{\hyperlink{class_utente}{Utente}}, Titolo, Autore, Anno, Codice \mbox{\hyperlink{class_libro}{Libro}}.~\newline
+Restituisce, come indirizzo, un int$\ast$\mbox{[}1000\mbox{]} contenente gli indici dei singoli Prestiti trovati. \mbox{\Hypertarget{class_persona_a11bc0159627eb83be83b00c56ff1a3f9}\label{class_persona_a11bc0159627eb83be83b00c56ff1a3f9}} 
+\index{Persona@{Persona}!Ricerca\+Utente@{Ricerca\+Utente}}
+\index{Ricerca\+Utente@{Ricerca\+Utente}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Ricerca\+Utente()}{RicercaUtente()}}
+{\footnotesize\ttfamily bool Persona\+::\+Ricerca\+Utente (\begin{DoxyParamCaption}\item[{int $\ast$}]{vett = {\ttfamily new~int\mbox{[}1000\mbox{]}} }\end{DoxyParamCaption})}
+
+
+
+Ricercatore del \mbox{\hyperlink{class_prestito}{Prestito}}. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em Conferma} & booleana presenza record in file.\\
+\hline
+\end{DoxyParams}
+Richiede un testo in input, che varra\textquotesingle{} come parola chiave da ricercare in Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}.~\newline
+Restituisce, come indirizzo, un int$\ast$\mbox{[}1000\mbox{]} contenente gli indici dei singoli Utenti trovati. \mbox{\Hypertarget{class_persona_a619e90d3b2036e78778b590ea1d51bcc}\label{class_persona_a619e90d3b2036e78778b590ea1d51bcc}} 
+\index{Persona@{Persona}!Set\+Credenziali@{Set\+Credenziali}}
+\index{Set\+Credenziali@{Set\+Credenziali}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{Set\+Credenziali()}{SetCredenziali()}}
+{\footnotesize\ttfamily void Persona\+::\+Set\+Credenziali (\begin{DoxyParamCaption}\item[{char $\ast$}]{pin,  }\item[{char $\ast$}]{nome,  }\item[{char $\ast$}]{cognome }\end{DoxyParamCaption})}
+
+
+
+Setter delle credenziali. 
+
+Funge da metodo setter per i 3 parametri\+: Nome, Cognome, \mbox{\hyperlink{class_pin}{Pin}}. \mbox{\Hypertarget{class_persona_aa3d04ab73400a071421c979e692f93b3}\label{class_persona_aa3d04ab73400a071421c979e692f93b3}} 
+\index{Persona@{Persona}!View\+Lista\+Prestiti@{View\+Lista\+Prestiti}}
+\index{View\+Lista\+Prestiti@{View\+Lista\+Prestiti}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{View\+Lista\+Prestiti()}{ViewListaPrestiti()}}
+{\footnotesize\ttfamily void Persona\+::\+View\+Lista\+Prestiti (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Visualizzatore della Lista Prestiti. 
+
+Mostra il singolo prestito richiesto dall\textquotesingle{}\mbox{\hyperlink{class_utente}{Utente}} ne chiede l\textquotesingle{}accettazione da parte del relativo Addetto/\+Direttore. \mbox{\Hypertarget{class_persona_a8d7f6fa850c62e1eaac15c64013367a9}\label{class_persona_a8d7f6fa850c62e1eaac15c64013367a9}} 
+\index{Persona@{Persona}!View\+Lista\+Prestiti\+In\+Corso@{View\+Lista\+Prestiti\+In\+Corso}}
+\index{View\+Lista\+Prestiti\+In\+Corso@{View\+Lista\+Prestiti\+In\+Corso}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{View\+Lista\+Prestiti\+In\+Corso()}{ViewListaPrestitiInCorso()}}
+{\footnotesize\ttfamily void Persona\+::\+View\+Lista\+Prestiti\+In\+Corso (\begin{DoxyParamCaption}\item[{char $\ast$}]{username = {\ttfamily \char`\"{}none\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Visualizzatore della Lista Prestiti In Corso. 
+
+Mostra la lista dei prestiti in corso indicandone\+: Titolo \mbox{\hyperlink{class_libro}{Libro}}, Nome, Cognome, Username \mbox{\hyperlink{class_utente}{Utente}},~\newline
+\mbox{\hyperlink{class_data}{Data}} Accettazione, \mbox{\hyperlink{class_data}{Data}} Scadenza, Giorni mancanti alla scadenza. \mbox{\Hypertarget{class_persona_ade5bba69999d1ccedd4104f1c6c323b6}\label{class_persona_ade5bba69999d1ccedd4104f1c6c323b6}} 
+\index{Persona@{Persona}!View\+Lista\+Prestiti\+Scaduti@{View\+Lista\+Prestiti\+Scaduti}}
+\index{View\+Lista\+Prestiti\+Scaduti@{View\+Lista\+Prestiti\+Scaduti}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{View\+Lista\+Prestiti\+Scaduti()}{ViewListaPrestitiScaduti()}}
+{\footnotesize\ttfamily void Persona\+::\+View\+Lista\+Prestiti\+Scaduti (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Visualizzatore della Lista Prestiti Scaduti. 
+
+Mostra il singolo prestito scaduto e ne chiede la conferma del reso da parte del relativo Addetto/\+Direttore. \mbox{\Hypertarget{class_persona_ad84db334efe5f35da14f085eec7383ce}\label{class_persona_ad84db334efe5f35da14f085eec7383ce}} 
+\index{Persona@{Persona}!View\+Lista\+Utenti@{View\+Lista\+Utenti}}
+\index{View\+Lista\+Utenti@{View\+Lista\+Utenti}!Persona@{Persona}}
+\subsubsection{\texorpdfstring{View\+Lista\+Utenti()}{ViewListaUtenti()}}
+{\footnotesize\ttfamily void Persona\+::\+View\+Lista\+Utenti (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Visualizzatore della Lista Utenti. 
+
+Mostra la lista degli Utenti indicandone\+: Nome, Cognome, Username, \mbox{\hyperlink{class_pin}{Pin}}, \mbox{\hyperlink{class_data}{Data}} \mbox{\hyperlink{class_registrazione}{Registrazione}}. 
+
+La documentazione per questa classe è stata generata a partire dai seguenti file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classi_8h}{classi.\+h}}\item 
+\mbox{\hyperlink{funzioni_8cpp}{funzioni.\+cpp}}\end{DoxyCompactItemize}

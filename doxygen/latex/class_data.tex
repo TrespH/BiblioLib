@@ -1,0 +1,83 @@
+\hypertarget{class_data}{}\section{Riferimenti per la classe Data}
+\label{class_data}\index{Data@{Data}}
+\subsection*{Membri pubblici}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_af11f741cb7f587e2e495452a8905a22a}\label{class_data_af11f741cb7f587e2e495452a8905a22a}} 
+\mbox{\hyperlink{class_data_af11f741cb7f587e2e495452a8905a22a}{Data}} ()
+\begin{DoxyCompactList}\small\item\em Costruttore \mbox{\hyperlink{class_data}{Data}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_data_aab31956423290f0d62dcca47ab4d16dd}\label{class_data_aab31956423290f0d62dcca47ab4d16dd}} 
+\mbox{\hyperlink{class_data_aab31956423290f0d62dcca47ab4d16dd}{$\sim$\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Distruttore \mbox{\hyperlink{class_data}{Data}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_a0f77e10131654f6588e1ed935c8b5926}{Set\+Current\+Data\+Ora}} ()
+\begin{DoxyCompactList}\small\item\em Setter \mbox{\hyperlink{class_data}{Data}} e Ora correnti. \end{DoxyCompactList}\item 
+time\+\_\+t \mbox{\hyperlink{class_data_ab27ede34460ad63d6e3ee2567b3be0d9}{Get\+Data\+Ora}} ()
+\begin{DoxyCompactList}\small\item\em Getter \mbox{\hyperlink{class_data}{Data}} e Ora. \end{DoxyCompactList}\item 
+time\+\_\+t \mbox{\hyperlink{class_data_aaf254a17c4ad07af79effbd50df887d7}{Get\+Data\+Ora30\+Days}} (time\+\_\+t)
+\begin{DoxyCompactList}\small\item\em Getter \mbox{\hyperlink{class_data}{Data}} e Ora sommati di 30 giorni. \end{DoxyCompactList}\item 
+time\+\_\+t \mbox{\hyperlink{class_data_a67b1a6fc8bdd632c2bd582206df3c0b7}{Get\+Data\+Ora\+Estesa}} (time\+\_\+t, int)
+\begin{DoxyCompactList}\small\item\em Getter \mbox{\hyperlink{class_data}{Data}} e Ora estesi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentazione delle funzioni membro}
+\mbox{\Hypertarget{class_data_ab27ede34460ad63d6e3ee2567b3be0d9}\label{class_data_ab27ede34460ad63d6e3ee2567b3be0d9}} 
+\index{Data@{Data}!Get\+Data\+Ora@{Get\+Data\+Ora}}
+\index{Get\+Data\+Ora@{Get\+Data\+Ora}!Data@{Data}}
+\subsubsection{\texorpdfstring{Get\+Data\+Ora()}{GetDataOra()}}
+{\footnotesize\ttfamily time\+\_\+t Data\+::\+Get\+Data\+Ora (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter \mbox{\hyperlink{class_data}{Data}} e Ora. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em time\+\_\+t} & data\+Ora\\
+\hline
+\end{DoxyParams}
+Restituisce \mbox{\hyperlink{class_data}{Data}} e Ora settati mediante la funzione \mbox{\hyperlink{class_data_a0f77e10131654f6588e1ed935c8b5926}{Set\+Current\+Data\+Ora()}}. \mbox{\Hypertarget{class_data_aaf254a17c4ad07af79effbd50df887d7}\label{class_data_aaf254a17c4ad07af79effbd50df887d7}} 
+\index{Data@{Data}!Get\+Data\+Ora30\+Days@{Get\+Data\+Ora30\+Days}}
+\index{Get\+Data\+Ora30\+Days@{Get\+Data\+Ora30\+Days}!Data@{Data}}
+\subsubsection{\texorpdfstring{Get\+Data\+Ora30\+Days()}{GetDataOra30Days()}}
+{\footnotesize\ttfamily time\+\_\+t Data\+::\+Get\+Data\+Ora30\+Days (\begin{DoxyParamCaption}\item[{time\+\_\+t}]{data }\end{DoxyParamCaption})}
+
+
+
+Getter \mbox{\hyperlink{class_data}{Data}} e Ora sommati di 30 giorni. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em \mbox{\hyperlink{class_data}{Data}}} & e Ora + 30 giorni\\
+\hline
+\end{DoxyParams}
+Restituisce \mbox{\hyperlink{class_data}{Data}} e Ora sommati di 30 giorni al parametro time\+\_\+t in ingresso. \mbox{\Hypertarget{class_data_a67b1a6fc8bdd632c2bd582206df3c0b7}\label{class_data_a67b1a6fc8bdd632c2bd582206df3c0b7}} 
+\index{Data@{Data}!Get\+Data\+Ora\+Estesa@{Get\+Data\+Ora\+Estesa}}
+\index{Get\+Data\+Ora\+Estesa@{Get\+Data\+Ora\+Estesa}!Data@{Data}}
+\subsubsection{\texorpdfstring{Get\+Data\+Ora\+Estesa()}{GetDataOraEstesa()}}
+{\footnotesize\ttfamily time\+\_\+t Data\+::\+Get\+Data\+Ora\+Estesa (\begin{DoxyParamCaption}\item[{time\+\_\+t}]{scadenza,  }\item[{int}]{giorni }\end{DoxyParamCaption})}
+
+
+
+Getter \mbox{\hyperlink{class_data}{Data}} e Ora estesi. 
+
+
+\begin{DoxyParams}[1]{Parametri}
+\mbox{\tt out}  & {\em \mbox{\hyperlink{class_data}{Data}}} & e Ora + giorni di estensione\\
+\hline
+\end{DoxyParams}
+Restituisce \mbox{\hyperlink{class_data}{Data}} e Ora sommati di \mbox{[}parametro int in ingresso\mbox{]} giorni al parametro time\+\_\+t in ingresso. \mbox{\Hypertarget{class_data_a0f77e10131654f6588e1ed935c8b5926}\label{class_data_a0f77e10131654f6588e1ed935c8b5926}} 
+\index{Data@{Data}!Set\+Current\+Data\+Ora@{Set\+Current\+Data\+Ora}}
+\index{Set\+Current\+Data\+Ora@{Set\+Current\+Data\+Ora}!Data@{Data}}
+\subsubsection{\texorpdfstring{Set\+Current\+Data\+Ora()}{SetCurrentDataOra()}}
+{\footnotesize\ttfamily void Data\+::\+Set\+Current\+Data\+Ora (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Setter \mbox{\hyperlink{class_data}{Data}} e Ora correnti. 
+
+Mediante la funzione time() viene settato un valore time\+\_\+t che contiene \mbox{\hyperlink{class_data}{Data}} e Ora correnti. 
+
+La documentazione per questa classe è stata generata a partire dai seguenti file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classi_8h}{classi.\+h}}\item 
+\mbox{\hyperlink{funzioni_8cpp}{funzioni.\+cpp}}\end{DoxyCompactItemize}
